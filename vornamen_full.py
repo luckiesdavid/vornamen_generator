@@ -73,7 +73,9 @@ def silbentrennung(fav_namen):
 
 def silben_zusammenfuegen1(d):
     zufaellige_silben = []
-    for i in range(1, 5):
+    random_length = random.randint(3, 4)
+    print(random_length)
+    for i in range(random_length):
         if d.get(str(i)):
             zufaellige_silbe = random.choice(d[str(i)])
             zufaellige_silben.append(zufaellige_silbe)
