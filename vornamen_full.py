@@ -79,12 +79,6 @@ def silben_zusammenfuegen1(d):
             zufaellige_silben.append(zufaellige_silbe)
     return ''.join(zufaellige_silben)
 
-
-#def silben_zusammenfuegen2(dict_silben):
-#    print(dict_silben)
-#    generierter_name = silben_zusammenfuegen1(dict_silben)
-#    print("Gererierter Name:", generierter_name)
-
 def start_gen():
     import_names(csv_in)
     silbentrennung(fav_namen)
@@ -219,4 +213,3 @@ if __name__ == "__main__":
     export_names(csv_out, namen_out)
     import_fav_names(fav_csv_in)
     silbentrennung(fav_namen)
-    #silben_zusammenfuegen2()
