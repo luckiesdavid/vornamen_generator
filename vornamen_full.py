@@ -210,6 +210,3 @@ def tkinter():
 if __name__ == "__main__":
     import_names(csv_in)
     tkinter()
-    export_names(csv_out, namen_out)
-    import_fav_names(fav_csv_in)
-    silbentrennung(fav_namen)
